@@ -1,2 +1,5 @@
+import React from 'react'; 
+
 console.log('Hello!');
-document.body.innerHTML = "<h1>Can you read this!?</h1>"
+console.log(React.verion);
+document.body.innerHTML = "<h1>Can you read this!?</h1>";

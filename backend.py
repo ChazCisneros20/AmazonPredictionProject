@@ -50,7 +50,7 @@ if __name__=='__main__':
             )
             return day
 
-    # First 9 input features must stay within realistic ranges before model prediction.
+    #The first 9 features 
     day_of_week = get_valid_int('Enter a day of the week\n(ex: 1 for Monday, 2 for Tuesday, ..., 7 for Sunday): ', 1, 7)
     day_of_week_encoded = day_of_week - 1
     month = get_valid_int('Enter a number for the month\n(ex: 1 for January, 2 for February, ..., 12 for December): ', 1, 12)
