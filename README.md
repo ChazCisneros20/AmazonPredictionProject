@@ -10,7 +10,6 @@ Personal machine-learning project
 - Addressed unlabeled product data by embedding product names with `all-MiniLM-L6-v2`, reducing the embeddings with PCA, and clustering with K-Means into 15 groups; manually reviewed the groups and mapped them to readable product categories.
 - Built a supervised classification dataset with calendar, cyclical time, elapsed-time, and previous-category features, including a 16-value one-hot encoding for the previous cluster.
 - Trained a PyTorch multilayer perceptron and saved its learned weights and `StandardScaler` for reuse during inference; stored the prepared feature data in SQLite.
-- Evaluated on a held-out 20% split, recording 24.2% accuracy, 25.7% macro precision, and 20.8% macro recall. These baseline results identify model quality as an area for further improvement.
 
 ## Pipeline Overview
 
